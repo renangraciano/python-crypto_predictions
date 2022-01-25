@@ -1,0 +1,2 @@
+coinTicker = 'BTC'
+fiatTicker = 'USD'
