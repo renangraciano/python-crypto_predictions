@@ -1,2 +1,2 @@
-coinTicker = 'BTC'
+coinTicker = 'ADA'
 fiatTicker = 'USD'

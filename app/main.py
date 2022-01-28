@@ -7,7 +7,7 @@ import datetime as dt
 from sklearn.preprocessing import MinMaxScaler
 from tensorflow.keras.layers import Dense, Dropout, LSTM
 from tensorflow.keras.models import Sequential
-import config
+import config as config
 
 crypto_currency = config.coinTicker
 against_currency = config.fiatTicker

@@ -1,5 +1,5 @@
 pandas
-pandas_datareader
+pandas-datareader
 numpy
 matplotlib
 sklearn

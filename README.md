@@ -10,20 +10,37 @@ I chose to user docker image to simplify the execution process, so basically we 
 ```
 .
 ├── app
-│   ├── config.py
-│   ├── main.py
-│   └── requirements.txt
-├── Dockerfile
+│   ├── config.py
+│   ├── main.py
+│   └── requirements.txt
 └── README.md
 ```
+
 # Requirements
-I'm Using Docker, so we need Docker installed to build and run this image =).
-
-- Docker
-
-The install process can be found here -> [Install Docker](https://docs.docker.com/engine/install)
+- Python3
 
 # Running
+ 1 - Clone this repo and Access them.
+ 2 - Create a virtual environment and install requirements.txt libs.
+ 3 - Running.
+
+## How to create a virtual environment
 ```
-docker build -t py_crypto-prediction .
+python3 -m venv .venv
 ```
+
+Now you can load this env with command:
+```
+source .venv/bin/activate
+```
+
+Installing libs
+```
+pip install -r app/requirements.txt
+```
+
+Running Script
+```
+python app/main.py
+```
+
